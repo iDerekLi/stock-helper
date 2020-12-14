@@ -1,0 +1,24 @@
+html, body {
+  height: initial;
+  min-height: 150px;
+  font-family: "微软雅黑", SF Pro SC,SF Pro Text,SF Pro Icons,PingFang SC,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+$color-red: #ff483d;
+$color-green: #63da3c;
+$color-gary: #e1e2e1;
+
+.red {
+  color: #fff;
+  background: $color-red;
+}
+
+.green {
+  color: #fff;
+  background: $color-green;
+}
+
+.gary {
+  color: #000;
+  background: $color-gary;
+}

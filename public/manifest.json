@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "股票小组件",
+  "version": "1.0.0",
+  "description": "股票小组件",
+  "author": "Derek Li",
+  "icons": {
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "options_page": "popup.html",
+  "browser_action": {
+    "default_icon": "logo.png",
+    "default_title": "股票小组件",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "storage",
+    "http://*/*",
+    "https://*/*",
+    "ws://*/*"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
